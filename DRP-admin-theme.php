@@ -11,7 +11,7 @@
  * */
 
 function material_style() {
-        wp_enqueue_style('material-theme', plugins_url('material.css', __FILE__));
+        wp_enqueue_style('material-theme', plugins_url('DRP-admin-theme.css', __FILE__));
 }
 
 add_action('admin_enqueue_scripts', 'material_style');
